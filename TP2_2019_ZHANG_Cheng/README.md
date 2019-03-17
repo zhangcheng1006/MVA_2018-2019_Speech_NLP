@@ -2,7 +2,7 @@
 
 ## Run the system
 
-You can run the system by './run.sh $test_file_path' in the command line. The test file path is necessary. There are also three other arguments corresponding to the training file, training sentences file and the results output file. However, the other three arguments are not necessary. You can just leave them blank and it will take the default arguments.  The default training file is './data/train', the default training sentence file is './data/train_sent' and the default output file is 'evaluation_data2.parser_output'. You can also provide other file paths as arguments, in this case, you need to provide all four files.
+You can run the system by './run.sh $test_file_path' in the command line. The test file path is necessary. In our system, $test_file_path = ./data/test. You can also take your own test file. There are also three other arguments corresponding to the training file, training sentences file and the results output file. However, the other three arguments are not necessary. You can just leave them blank and it will take the default arguments.  The default training file is './data/train', the default training sentence file is './data/train_sent' and the default output file is 'evaluation_data2.parser_output'. You can also provide other file paths as arguments, in this case, you need to provide all four files.
 
 After the results are written in the output file, you can evaluate the performance by the EVALB module. (Here we evaluate the performance by the pre-calculated results 'evaluation_data.parser_output')
 
